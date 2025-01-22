@@ -1,0 +1,9 @@
+{
+	"name": "ShivamDataDactory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f207e7fa-e9fd-4bbf-a2e4-0a06d8e767bc",
+		"tenantId": "2d58dd23-8504-4ce8-b38f-edc6ce19e37e"
+	}
+}
