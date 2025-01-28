@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ShivamDataDactory"
+		},
+		"AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"SQLtoADLS_accountKey": {
+			"value": ""
+		},
+		"filesSQLDB_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://olistsa.dfs.core.windows.net/"
+		},
+		"JsonfromGitHubForLoop_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/Shivamfeb2/EndToEndDataEngineering/refs/heads/main/foreachInput.json"
+		},
+		"SQLtoADLS_properties_typeProperties_url": {
+			"value": "https://olistsa.dfs.core.windows.net/"
+		},
+		"filesSQLDB_properties_typeProperties_server": {
+			"value": "5vqyc.h.filess.io"
+		},
+		"filesSQLDB_properties_typeProperties_database": {
+			"value": "olistproject_diagramdot"
+		},
+		"filesSQLDB_properties_typeProperties_username": {
+			"value": "olistproject_diagramdot"
+		},
+		"githublink_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/mayank953/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sqlserver-guruji.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "userrname"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "dataengineeringdb"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "sqlserver-guruji.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "userrname"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "dataengineeringdb"
+		}
+	}
+}
